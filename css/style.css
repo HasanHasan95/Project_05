@@ -598,7 +598,7 @@ img {
     }
   }
 }
-/*  */
+/* Details Features */
 .details-features {
   background-color: var(--tertiary-color);
   padding: 4rem 2rem;
@@ -873,6 +873,17 @@ footer {
                 }
             }
         }
+    }
+  }
+  .screenshots {
+    .screenshots__container {
+      .screenshots__content {
+        .screenshots__title {
+          font-size: 2rem;
+          width: 100%;
+          max-width: 350px;
+        }
+      }
     }
   }
 }
